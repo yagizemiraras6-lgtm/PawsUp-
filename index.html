@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawsUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>PawsUp 🐾</h1>
+            <button class="upload-trigger-btn" id="openModalBtn">+ Video Yükle</button>
+        </header>
+
+        <div class="reels-container" id="reelsContainer"></div>
+
+        <div class="modal" id="uploadModal" style="display: none;">
+            <div class="modal-content">
+                <h3>Kedi Videosu Ekle</h3>
+                <input type="text" id="videoTitleInput" placeholder="Video Başlığı">
+                <input type="text" id="videoUrlInput" placeholder="YouTube Video URL">
+                <button id="submitVideoBtn">Yükle</button>
+                <button id="closeModalBtn">İptal</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+    <!-- Sayfanın tüm HTML kodları burada bittikten sonra -->
+    <script src="script.js" defer></script>
+</body>
+</html>
